@@ -1,9 +1,10 @@
-# Fabric Example Mod
+# Fabric Welder Mod
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Download Fabric here https://fabricmc.net/use/
+Download Fabric Api here https://www.curseforge.com/minecraft/mc-mods/fabric-api/files
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This repo uses a GNU 3.0 public license.
