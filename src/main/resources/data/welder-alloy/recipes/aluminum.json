@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "welder-alloy:aluminum_dust"
+  },
+  "result": "welder-alloy:aluminum",
+  "experience": 0.35,
+  "cookingtime": 100
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "welder-alloy:hot_diamond"
+    }
+  ],
+  "result": {
+    "item": "welder-alloy:hot_diamond_pieces",
+    "count": 64
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "welder-alloy",
+  "version": "${version}",
+
+  "name": "Welder",
+  "description": "Adds alloys of different and the same minerals",
+  "authors": [
+    "NetUserGet"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "gpl-3.0",
+  "icon": "assets/welder-alloy/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.netuserget.welder.Welder"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

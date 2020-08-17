@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "welder-alloy:steel_mix"
+    },
+    {
+      "item": "welder-alloy:aluminum_dust"
+    }
+  ],
+  "result": {
+    "item": "welder-alloy:alumisteel_mix",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  // Items
+  "item.welder-alloy.steel": "Steel",
+  "item.welder-alloy.steel_mix": "Steel Mix",
+  "item.welder-alloy.aluminum": "Aluminum",
+  "item.welder-alloy.aluminum_dust": "Aluminum Dust",
+  "item.welder-alloy.hot_diamond": "Hot Diamond",
+  "item.welder-alloy.hot_diamond_pieces": "Hot Diamond Pieces",
+  "item.welder-alloy.cold_diamond": "Cold Diamond",
+  "item.welder-alloy.alumisteel": "Alumisteel",
+  "item.welder-alloy.alumisteel_mix": "Alumisteel Mix",
+  "item.welder-alloy.silver": "Silver",
+
+  // Blocks
+  "block.welder-alloy.bauxite": "Bauxite Ore",
+
+  // Item Groups
+  "itemGroup.welder-alloy.ores": "Welder Ores",
+  "itemGroup.welder-alloy.alloys": "Welder Alloys",
+  "itemGroup.welder-alloy.mixes": "Welder Mixs"
+}
