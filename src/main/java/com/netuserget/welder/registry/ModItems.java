@@ -9,16 +9,17 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static Item STEEL = new Item(new Item.Settings().group(Welder.ALOWYS));
-    public static Item ALUMINUM = new Item(new Item.Settings().group(Welder.ALOWYS));
-    public static Item STEEL_MIX = new Item(new Item.Settings().group(Welder.MIX));
-    public static Item ALUMINUM_DUST = new Item(new Item.Settings().group(Welder.MIX));
-    public static Item HOT_DIAMOND = new Item(new Item.Settings().group(Welder.ALOWYS));
-    public static Item HOT_DIAMOND_PIECES = new Item(new Item.Settings().group(Welder.ALOWYS));
-    public static Item COLD_DIAMOND = new Item(new Item.Settings().group(Welder.ALOWYS));
-    public static Item ALUMISTEEL_MIX = new Item(new Item.Settings().group(Welder.MIX));
-    public static Item ALUMISTEEL = new Item(new Item.Settings().group(Welder.ALOWYS));
-    public static Item SILVER = new Item(new Item.Settings().group(Welder.ALOWYS));
+    public static Item STEEL = new Item(new Item.Settings().group(Welder.ALLOYS));
+    public static Item ALUMINUM = new Item(new Item.Settings().group(Welder.ALLOYS));
+    public static Item STEEL_MIX = new Item(new Item.Settings().group(Welder.MIXES));
+    public static Item ALUMINUM_DUST = new Item(new Item.Settings().group(Welder.MIXES));
+    public static Item HOT_DIAMOND = new Item(new Item.Settings().group(Welder.ALLOYS));
+    public static Item HOT_DIAMOND_PIECES = new Item(new Item.Settings().group(Welder.ALLOYS));
+    public static Item COLD_DIAMOND = new Item(new Item.Settings().group(Welder.ALLOYS));
+    public static Item ALUMISTEEL_MIX = new Item(new Item.Settings().group(Welder.MIXES));
+    public static Item ALUMISTEEL = new Item(new Item.Settings().group(Welder.ALLOYS));
+    public static Item SILVER = new Item(new Item.Settings().group(Welder.ALLOYS));
+    public static Item PLATINUM = new Item(new Item.Settings().group(Welder.ALLOYS));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Welder.MOD_ID, "steel"), STEEL);
@@ -31,6 +32,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Welder.MOD_ID, "alumisteel"), ALUMISTEEL);
         Registry.register(Registry.ITEM, new Identifier(Welder.MOD_ID, "alumisteel_mix"), ALUMISTEEL_MIX);
         Registry.register(Registry.ITEM, new Identifier(Welder.MOD_ID, "silver"), SILVER);
+        Registry.register(Registry.ITEM, new Identifier(Welder.MOD_ID, "platinum"), PLATINUM);
     }
 
 
